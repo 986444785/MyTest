@@ -22,6 +22,7 @@
     [self.view addSubview:lab];
     
     
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
 }
 
 - (void)didReceiveMemoryWarning {
