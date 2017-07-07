@@ -13,6 +13,7 @@
 		15C371F91F0F72BC005623D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C371F71F0F72BC005623D5 /* Main.storyboard */; };
 		15C371FB1F0F72BC005623D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C371FA1F0F72BC005623D5 /* Assets.xcassets */; };
 		15C371FE1F0F72BC005623D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C371FC1F0F72BC005623D5 /* LaunchScreen.storyboard */; };
+		15C372071F0F7493005623D5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C372061F0F7493005623D5 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		15C371FA1F0F72BC005623D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C371FD1F0F72BC005623D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C371FF1F0F72BC005623D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C372051F0F7493005623D5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		15C372061F0F7493005623D5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				15C371F21F0F72BC005623D5 /* AppDelegate.m */,
 				15C371F41F0F72BC005623D5 /* ViewController.h */,
 				15C371F51F0F72BC005623D5 /* ViewController.m */,
+				15C372051F0F7493005623D5 /* MainViewController.h */,
+				15C372061F0F7493005623D5 /* MainViewController.m */,
 				15C371F71F0F72BC005623D5 /* Main.storyboard */,
 				15C371FA1F0F72BC005623D5 /* Assets.xcassets */,
 				15C371FC1F0F72BC005623D5 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				15C371F61F0F72BC005623D5 /* ViewController.m in Sources */,
 				15C371F31F0F72BC005623D5 /* AppDelegate.m in Sources */,
 				15C371F01F0F72BC005623D5 /* main.m in Sources */,
+				15C372071F0F7493005623D5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +315,7 @@
 				15C372041F0F72BC005623D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
