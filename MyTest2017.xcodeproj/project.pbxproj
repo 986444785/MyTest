@@ -14,6 +14,7 @@
 		15C371FB1F0F72BC005623D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C371FA1F0F72BC005623D5 /* Assets.xcassets */; };
 		15C371FE1F0F72BC005623D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C371FC1F0F72BC005623D5 /* LaunchScreen.storyboard */; };
 		15C372071F0F7493005623D5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C372061F0F7493005623D5 /* MainViewController.m */; };
+		BE6470F7209ACEC50051F28B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6470F6209ACEC50051F28B /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		15C371FF1F0F72BC005623D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C372051F0F7493005623D5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		15C372061F0F7493005623D5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BE6470F5209ACEC50051F28B /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BE6470F6209ACEC50051F28B /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				15C371F51F0F72BC005623D5 /* ViewController.m */,
 				15C372051F0F7493005623D5 /* MainViewController.h */,
 				15C372061F0F7493005623D5 /* MainViewController.m */,
+				BE6470F5209ACEC50051F28B /* MyViewController.h */,
+				BE6470F6209ACEC50051F28B /* MyViewController.m */,
 				15C371F71F0F72BC005623D5 /* Main.storyboard */,
 				15C371FA1F0F72BC005623D5 /* Assets.xcassets */,
 				15C371FC1F0F72BC005623D5 /* LaunchScreen.storyboard */,
@@ -159,6 +164,7 @@
 				15C371F31F0F72BC005623D5 /* AppDelegate.m in Sources */,
 				15C371F01F0F72BC005623D5 /* main.m in Sources */,
 				15C372071F0F7493005623D5 /* MainViewController.m in Sources */,
+				BE6470F7209ACEC50051F28B /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
